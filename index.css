@@ -1,0 +1,138 @@
+#header {
+  background-color: rgba(200, 200, 200, 0);
+  color: white;
+  font-style: italic;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: none;
+}
+
+#title {
+  float: left;
+  padding-left: 20px;
+}
+
+.links {
+  float: right;
+  padding-right: 20px;
+}
+.links button {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+  margin: 10px;
+  color: white;
+}
+.links button:hover {
+  background-color: rgba(200, 200, 200, 0.9);
+  color: black;
+}
+.links li {
+  display: inline-block;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-image: url("./images/wall.jpg");
+  height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+  background-blend-mode: color-burn;
+  /* background-repeat: no-repeat; */
+}
+
+#upperContainer {
+  display: flex;
+  float: 1;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 80vh;
+  width: 90vw;
+}
+
+
+#name {
+  border: 2px solid white;
+  padding: 10px;
+  font-weight: bold;
+  /* font-style: italic; */
+}
+
+#lowerContainer {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+  border-radius: 10px;
+  margin: auto;
+  padding: 5px 20px;
+}
+#container {
+  background-color: #eee;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#aboutTitle {
+  /* font-size: 30px; */
+  border-bottom: solid 1px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#imageContainer {
+  align-self: flex-start;
+  width: 30%;
+  margin: 0px 10px 50px;
+  height: 100%;
+  border-right: 1px solid black;
+}
+#infoContainer {
+  align-self: flex-start;
+  width: 70%;
+  margin: 10px;
+  padding: 10px;
+}
+#myImage {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+#mixContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.toTop {
+  background-color: #aaa;
+  color: black;
+  padding: 5px;
+  width: 80px;
+  margin-left:10px;
+  border: none;
+}
+.toTop:hover {
+  background-color: black;
+  color: white;
+}
+.toTop a {
+  text-decoration: none;
+  color: black;
+}
+.toTop a:hover {
+  color: white;
+  background-color: black;
+}
+
+#topLink{
+  margin-left: 10px;
+}
+.resume{
+  padding:30px;
+}

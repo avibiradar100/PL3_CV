@@ -1,0 +1,41 @@
+p {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+img{
+    width: 400px;
+    height:300px;
+    float: left;
+    padding: 2px;
+}
+h1,h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column1{
+    float: left;
+    width: 40%;
+}
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row1{
+    padding:5% 3%
+}
+header{
+    padding-bottom: 5%;
+}
