@@ -1,3 +1,53 @@
+body {
+  /* background-image: url("./images/wall.jpg"); */
+  height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+  background-blend-mode: color-burn;
+  /* background-repeat: no-repeat; */
+}
+
+#header {
+  background-color:black;
+  color: white;
+  font-style: italic;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: none;
+}
+
+.links {
+  float: right;
+  padding-right: 20px;
+}
+.links button {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+  margin: 10px;
+  color: white;
+}
+.links button:hover {
+  background-color: rgba(200, 200, 200, 0.9);
+  color: black;
+}
+.links li {
+  display: inline-block;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+#title {
+  float: left;
+  padding-left: 20px;
+}
+
 p {
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -36,6 +86,6 @@ h1,h2{
 .row1{
     padding:5% 3%
 }
-header{
+/* header{
     padding-bottom: 5%;
-}
+} */

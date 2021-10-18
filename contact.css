@@ -38,16 +38,18 @@ body {
 }
 .container{
     display: flex;
+    position: absolute;
+    bottom: 2%;
+    left:30%;
     float: 1;
     align-items: center;
     justify-content: center;
-    height: 80vh;  
+    height: 500px;  
 }
 .contactPage{
     background-color: #ddd;
     padding: 10px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 30px;
 }
 .paper{
     background-color: white;
@@ -87,4 +89,20 @@ body {
 }
 .paper a:hover{
     color: black;
+}
+
+.btn{
+  margin: 50px 100px ;
+}
+
+label{
+  padding: 10px;
+}
+
+.formfield * {
+  vertical-align: middle;
+}
+
+.contactform{
+  padding: 20px;
 }
