@@ -1,91 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Avinash's Portfolio</title>
-    <link rel="stylesheet" href="./index.css" />
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-wifth; initial-scale=1.0"
+    />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css" />
   </head>
   <body>
     <header>
-      <div id="header">
-        <div id="title"><h1>About Me!</h1></div>
-        <div class="links" style="float: right">
-          <ul style="list-style-type: none">
+      <div class="header">
+        <div class="title"><h1>Contact Me</h1></div>
+        <div>
+          <ul class="list" style="list-style-type: none">
+            <li>
+              <a href="./index.html"><button>About Me</button></a>
+            </li>
+             <li>
+              <a href="./town.html"><button>My town</button></a>
+            </li>
             <li>
               <a href="./Education.html"><button>Education</button></a>
             </li>
             <li>
-              <a href="./town.html"><button>My Town</button></a>
-            </li>
-            <li>
-              <a href="./TechnicalSkills.html"><button>Technical Skills</button></a>
-            </li>
-            <li>
-              <a href="./Contact.html"><button>Contact me</button></a>
+              <a href="./TechnicalSkills.html"
+                ><button>Technical Skills</button></a
+              >
             </li>
           </ul>
         </div>
       </div>
     </header>
-    <div class="resume">
-      <!-- <div id="upperContainer">
-        <div id="name">
-          <h1>Avinash Vishnu Biradar</h1>
-          <hr />
-          <div align="center">
-            <p>Computer Science Enthusiast</p>
-            <p>Scroll Down for more Info....</p>
+    <div class="container">
+      <div class="contactPage">
+        <h1 style="text-align: center;">Contact Me</h1>
+        <p style="text-align: center;">biradarav.100@gmail.com | 7219578500</p>
+        <hr>
+        <div class="contactform">
+          <form action="">
+          <label for="name">Name:</label>
+          <input type="text" id="name"> <br> <br> <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email"> <br><br>
+          <p class="formfield">
+            <label for="purpose">Pupose:</label>
+            <textarea name="" id="purpose" cols="25" rows="8"></textarea>
+          </p>
+          <div class="btn">
+          <button type="submit" onclick="message()">Submit</button>
+          <button type="reset">Reset</button>
           </div>
-        </div>
-      </div> -->
-      <div id="lowerContainer">
-        <h1 style="text-align: center;">Avinash Biradar</h1>
-        <p id="aboutTitle">Computer Science Enthusiast | Third Year Undergraduate</p>
-        <div id="mixContainer">
-          <div id="imageContainer">
-            <figure>
-              <img
-                id="myImage"
-                src="./images/myphoto.jpg"
-                alt="Aviansh Biradar"
-              />
-            </figure>
-            <h3>Career objective</h3>
-            <p>
-             To obtain a challenging position that best utilizes my skills and provides opportunities. 
-            </p>
-            <h3> Languages</h3>
-            <ul>
-              <li>English</li>
-              <li>Hindi</li>
-              <li>Marathi</li>
-            </ul>
-            <br><br><br><br>
-          </div>
-          <div id="infoContainer">
-            <h3>In Brief:</h3>
-            <p>
-              I am<span><b> Avinash Vishnu Biradar</b></span> Currently persuing BTech in walchand college of engineering Sangli and  on the way of becoming a Computer science enginner.<br/>
-            </p>
-            <h4>Achievments</h4>
-            <ul>
-              <li> 100/100 in Mathematics in SSC</li>
-              <li> Jee mains Qualified</li>
-              <li>6 🌟 in problem solving on Hackerrank</li>
-              <li>3 🌟 on Codechef</li>
-            </ul>
-            <p>
-              <h4>Hobbies</h4>
-              <ul style="list-style-type: disc;">
-                <li>Exploring new technologies</li>
-                <li>Reading Boooks</li>
-                <li>Exploring new technologies</li>
-              </ul>
-               To know more Explore navigation at  <a id="topLink" href='#header'>Top</a>
-            </p>
-          </div>
+          </form>
         </div>
       </div>
     </div>
+    <script src="./contact.js"></script>
   </body>
 </html>
